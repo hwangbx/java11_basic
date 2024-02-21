@@ -1,0 +1,22 @@
+package org.kh.java;
+
+public class Variable4 {
+	public static void main(String[] args) {
+		String name = "/'황병찬/'";	// 글자가 여러개=복수개의 데이터 String
+		short age = 29;
+		float heigt = 177.7f;
+		float weight = 77.7f;
+		char init = "h";
+		
+		System.out.println("이름 :" +name);
+		// String name "황병찬";
+		// System.out.println("이름 :" \'+name\');
+		
+		/* 이스케이프 문자
+		 \n : 줄 바꿈
+		 \t : tab 띄우기
+		 \\ : \을 출력
+		 */
+		
+	}
+}

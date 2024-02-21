@@ -1,0 +1,14 @@
+2024-02-19 12:05:42,078 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-02-20 08:50:03,093 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-20 10:28:30,912 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-20 12:36:51,540 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.10+7
+2024-02-20 12:36:51,582 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@4d653c33{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@43720673{STARTED}}
+2024-02-20 12:36:51,583 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-02-20 12:36:51,601 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3b5404e5{HTTP/1.1, (http/1.1)}{127.0.0.1:61042}
+2024-02-20 12:36:51,614 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@4dd736a6{STARTING}[12.0.3,sto=0] @8308649ms
+2024-02-20 12:36:52,023 [qtp162074103-1332] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-02-20 12:36:52,261 [qtp162074103-1332] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-02-20 12:46:15,638 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@4dd736a6{STOPPING}[12.0.3,sto=0]
+2024-02-20 12:46:15,640 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3b5404e5{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-02-20 12:46:52,670 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-21 08:56:25,922 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

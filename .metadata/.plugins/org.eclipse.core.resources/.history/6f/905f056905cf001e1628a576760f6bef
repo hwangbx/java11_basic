@@ -1,0 +1,9 @@
+package org.kh.java;
+
+public class Variable1 {
+	public static void main(String[] args) {
+		boolean a = true;	//논리형(true, false) : 1 byte
+		byte b = 127;		//-128~127 : 1byte
+		//byte b = 255; (=>오버플로우)
+	}
+}

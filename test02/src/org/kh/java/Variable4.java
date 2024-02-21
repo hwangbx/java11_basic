@@ -1,0 +1,27 @@
+package org.kh.java;
+
+public class Variable4 {
+	public static void main(String[] args) {
+		String name = "황병찬";	// 글자가 여러개=복수개의 데이터 String
+		short age = 29;
+		float height = 177.7f;
+		float weight = 77.7f;
+		char init = 'h';
+		
+		System.out.printf("%n이름 :\"%s\"", name);		// String name "황병찬";
+														// System.out.println("이름 :" \'+name\');
+		System.out.printf("%n나이 :\"%d\"", age);
+		System.out.printf("%n키 : \"%f\"", height);		// 기본 소수점 6자리까지
+		System.out.printf("%n체중 :\"%.3f\"", weight);	//소수정 3자리까지
+		System.out.println("\n이니셜 : "+init);
+		
+		/* 이스케이프 문자
+		 \n : 줄 바꿈
+		 \t : tab 띄우기
+		 \\ : \를 출력
+		 \" : "를 출력
+		 \' : '를 출력
+		 */
+		
+	}
+}
