@@ -22,9 +22,8 @@ public class Condition4 {
 			 * 나머지는''으로 하되, switch~case~문 활용
 			 */
 			
-			/*
-			 [답안 1] 
-			 
+			
+			//[답안 1] 
 			if(point>=90) {
 				result="A";
 				if((point%10>=7 && point%10<=9) || point == 100) {
@@ -66,9 +65,9 @@ public class Condition4 {
 			} else {
 				result = "F";
 			}
-			*/
 			
-			//[답안2]
+			
+			/*[답안2]
 			if((point%10>=7 && point%10<=9 && point>=60) || point==100) {
 				result = "+";
 				if(point>=90) {
@@ -105,6 +104,7 @@ public class Condition4 {
 			} else {
 				result = "F";
 			}
+			*/
 			
 			String remark = "";
 			switch(result) {
